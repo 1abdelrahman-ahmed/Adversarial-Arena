@@ -1,0 +1,2 @@
+class OthelloWindow:
+    pass
