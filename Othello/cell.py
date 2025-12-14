@@ -1,15 +1,21 @@
+from constants import EMPTY
+
+
 class Cell:
-    def __init__(self):
-        pass
+    def __init__(self, color=EMPTY):
+        self.color = color
 
     def flip(self):
-        pass
+        if self.color == '@':
+            self.color = 'O'
+        elif self.color == 'O':
+            self.color = '@'
 
     def set_color(self, color):
-        pass
+        self.color = color
 
     def get_color(self):
-        pass
+        return self.color
 
     def is_empty(self):
-        pass
+        return self.color == EMPTY
