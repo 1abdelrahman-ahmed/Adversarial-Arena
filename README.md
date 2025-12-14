@@ -10,10 +10,10 @@ _A growing collection of adversarial board games powered by classical AI search 
 ```
 
 Adversarial-Arena/
-├── Othello/                     # [In Progress]
-│
+├── Othello/                     # [Complete]
+├── Chess/                       # [Planned]
+|
 ├── (More games coming soon...)
-│   ├── Chess/                   # [Planned]
 │   ├── GoBang/                  # [Planned]
 │
 └── README.md                    # Project-level documentation
