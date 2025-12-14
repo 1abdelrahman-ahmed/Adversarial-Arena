@@ -79,13 +79,13 @@ The AI evaluates board states strategically rather than greedily, prioritizing s
 ```
 
 Othello/
-├── ai.py            # Minimax + Alpha-Beta AI logic            # [In Progress]
-├── board.py         # Board representation and game rules      # [In Progress]
-├── cell.py          # Cell abstraction                         # [In Progress]
-├── constants.py     # shared constants & config                # [In Progress]
+├── ai.py            # Minimax + Alpha-Beta AI logic            # [Complete]
+├── board.py         # Board representation and game rules      # [Complete]
+├── cell.py          # Cell abstraction                         # [Complete]
+├── constants.py     # shared constants & config                # [Complete]
 ├── gui.py           # PyQt5 graphical interface                # [In Progress]
-├── main.py          # Terminal-based game entry point          # [In Progress]
-├── player.py        # Human and AI player logic                # [In Progress]
+├── main.py          # Terminal-based game entry point          # [Complete]
+├── player.py        # Human and AI player logic                # [Complete]
 └── README.md        # Game documentation                       # [In Progress]
 
 ````
