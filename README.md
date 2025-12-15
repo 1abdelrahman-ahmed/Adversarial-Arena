@@ -89,18 +89,57 @@ Technologies currently used in this project:
 
 ---
 
-## 📌 How to Use
+## 🖥 Running the Project & Graphical Interface
+
+The project supports both **direct game execution** and a **unified modern launcher**.
+Each game is implemented with its own GUI while sharing a common architectural style.
+
+---
+
+### 🔹 Option 1: Run a Specific Game Directly
 
 ```bash
 git clone https://github.com/1abdelrahman-ahmed/Adversarial-Arena.git
 cd Adversarial-Arena
 
-# Run a specific game (example: Othello)
+# Example: run Othello directly
 cd Othello
-python gui.py
+python othello_gui.py
 ````
 
-Each game directory contains its own **README** with detailed usage instructions.
+> Each game directory contains its own **README** with detailed usage instructions
+> and game-specific configuration options.
+
+---
+
+### 🔹 Option 2: Run Using the Unified Launcher (Recommended)
+
+#### 1️⃣ Install dependencies
+
+```bash
+pip install pyqt5
+```
+
+#### 2️⃣ Run the launcher from the project root
+
+```bash
+python main_launcher.py
+```
+
+#### 3️⃣ Select a game
+
+Choose between **Chess** or **Othello** from the launcher interface.
+
+---
+
+### 🎨 Graphical Interface Overview
+
+* Built using **PyQt5**
+* Unified modern launcher (`main_launcher.py`)
+* Each game has its own dedicated GUI
+* Designed for scalability and future game integration without refactoring
+
+```
 
 ---
 
