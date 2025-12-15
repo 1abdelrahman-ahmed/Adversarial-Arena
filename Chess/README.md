@@ -97,7 +97,7 @@ Chess/
 ├── ai.py            # AI engine (Minimax, Alpha-Beta, evaluation)
 ├── board.py         # Board representation and chess rules
 ├── constants.py     # Shared constants and evaluation tables
-├── gui.py           # PyQt5 graphical user interface
+├── chess_gui.py     # PyQt5 graphical user interface
 ├── main.py          # Terminal-based (CLI) entry point
 ├── moves.py         # Move parsing and formatting utilities
 ├── pieces.py        # Piece utilities and asset mapping
@@ -122,7 +122,7 @@ pip install PyQt5
 Run the game:
 
 ```bash
-python gui.py
+python chess_gui.py
 ```
 
 Features:

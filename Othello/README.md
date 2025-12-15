@@ -84,7 +84,7 @@ Othello/
 ├── board.py         # Board representation and game rules      # [Complete]
 ├── cell.py          # Cell abstraction                         # [Complete]
 ├── constants.py     # shared constants & config                # [Complete]
-├── gui.py           # PyQt5 graphical interface                # [Complete]
+├── othello_gui.py   # PyQt5 graphical interface                # [Complete]
 ├── main.py          # Terminal-based game entry point          # [Complete]
 └── player.py        # Human and AI player logic                # [Complete]
 
@@ -105,7 +105,7 @@ pip install PyQt5
 Run the game:
 
 ```bash
-python gui.py
+python othello_gui.py
 ```
 
 Features:
