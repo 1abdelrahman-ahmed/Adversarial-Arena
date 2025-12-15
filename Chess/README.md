@@ -96,8 +96,8 @@ Chess/
 ├── assets/          # Assets folder for images and sounds
 ├── ai.py            # AI engine (Minimax, Alpha-Beta, evaluation)
 ├── board.py         # Board representation and chess rules
-├── constants.py     # Shared constants and evaluation tables
 ├── chess_gui.py     # PyQt5 graphical user interface
+├── constants.py     # Shared constants and evaluation tables
 ├── main.py          # Terminal-based (CLI) entry point
 ├── moves.py         # Move parsing and formatting utilities
 ├── pieces.py        # Piece utilities and asset mapping
