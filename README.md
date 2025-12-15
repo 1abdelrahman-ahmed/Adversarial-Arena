@@ -139,8 +139,6 @@ Choose between **Chess** or **Othello** from the launcher interface.
 * Each game has its own dedicated GUI
 * Designed for scalability and future game integration without refactoring
 
-```
-
 ---
 
 ## 📜 License
