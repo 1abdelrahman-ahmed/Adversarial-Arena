@@ -1,10 +1,10 @@
 import sys
 
-from board import Board
-from player import Player
-from ai import AIEngine
-from moves import MoveCodec
-from constants import WHITE, BLACK
+from .board import Board
+from .player import Player
+from .ai import AIEngine
+from .moves import MoveCodec
+from .constants import WHITE, BLACK
 
 
 class CliGame:

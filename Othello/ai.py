@@ -1,4 +1,4 @@
-from constants import MIN_VALUE, MAX_VALUE, opponent
+from .constants import MIN_VALUE, MAX_VALUE, opponent
 
 
 class AI:

@@ -1,4 +1,4 @@
-from constants import EMPTY
+from .constants import EMPTY
 
 
 class Cell:

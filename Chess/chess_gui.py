@@ -20,10 +20,10 @@ from PyQt5.QtWidgets import (
     QDialog,
 )
 
-from board import Board
-from ai import find_best_move_hybrid
-from constants import PIECE_VALUES
-from zobrist import init_zobrist
+from .board import Board
+from .ai import find_best_move_hybrid
+from .constants import PIECE_VALUES
+from .zobrist import init_zobrist
 
 try:
     import pygame
@@ -153,7 +153,7 @@ class ChessBoardWidget(QWidget):
         self._load_images()
 
     def _load_images(self):
-        from pieces import IMAGE_NAME_BY_PIECE
+        from .pieces import IMAGE_NAME_BY_PIECE
 
         for piece, file in IMAGE_NAME_BY_PIECE.items():
             possible_paths = [

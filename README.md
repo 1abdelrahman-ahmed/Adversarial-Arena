@@ -10,9 +10,11 @@ _A growing collection of adversarial board games powered by classical AI search 
 ```
 
 Adversarial-Arena/
+├── images/                      
 ├── Othello/                     # [Complete]
-├── Chess/                       # [Planned]
-|
+├── Chess/                       # [Complete]
+├── main_launcher.py             # [Complete]
+│
 ├── (More games coming soon...)
 │   ├── GoBang/                  # [Planned]
 │

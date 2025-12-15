@@ -1,5 +1,5 @@
 import random
-from pieces import PIECES
+from .pieces import PIECES
 
 ZOBRIST_PIECES = [[0]*64 for _ in range(len(PIECES))]
 ZOBRIST_SIDE = 0

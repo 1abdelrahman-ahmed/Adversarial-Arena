@@ -1,4 +1,4 @@
-from constants import WHITE, BLACK, PROMOTION_CHOICES
+from .constants import WHITE, BLACK, PROMOTION_CHOICES
 
 PIECES = ['P','N','B','R','Q','K','p','n','b','r','q','k']
 

@@ -13,9 +13,9 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt, QTimer
 
-from constants import BLACK, WHITE, EMPTY, opponent
-from board import Board
-from ai import AI
+from .constants import BLACK, WHITE, EMPTY, opponent
+from .board import Board
+from .ai import AI
 
 
 BOARD_SIZE = 8

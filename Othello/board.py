@@ -1,5 +1,5 @@
-from constants import BOARD_SIZE, DIRECTIONS, SQUARE_WEIGHTS, BLACK, WHITE
-from cell import Cell
+from .constants import BOARD_SIZE, DIRECTIONS, SQUARE_WEIGHTS, BLACK, WHITE
+from .cell import Cell
 
 
 class Board:

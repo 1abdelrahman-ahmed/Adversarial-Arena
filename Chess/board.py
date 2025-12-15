@@ -1,6 +1,6 @@
-from constants import BOARD_SIZE, WHITE, BLACK, EMPTY, PROMOTION_CHOICES
-from pieces import color_of, normalize_promo
-from zobrist import compute_zobrist, init_zobrist
+from .constants import BOARD_SIZE, WHITE, BLACK, EMPTY, PROMOTION_CHOICES
+from .pieces import color_of, normalize_promo
+from .zobrist import compute_zobrist, init_zobrist
 
 class Board:
 

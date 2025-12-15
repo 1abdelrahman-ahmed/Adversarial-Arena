@@ -1,7 +1,7 @@
-from constants import BLACK, WHITE, opponent
-from board import Board
-from ai import AI
-from player import Player
+from .constants import BLACK, WHITE, opponent
+from .board import Board
+from .ai import AI
+from .player import Player
 
 
 def ask_player_type(name: str) -> str:

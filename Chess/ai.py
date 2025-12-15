@@ -1,9 +1,9 @@
 import math
 import random
 
-from board import Board
-from constants import PIECE_VALUES, PAWN_TABLE, KNIGHT_TABLE, BISHOP_TABLE, ROOK_TABLE, QUEEN_TABLE, KING_TABLE
-from zobrist import compute_zobrist
+from .board import Board
+from .constants import PIECE_VALUES, PAWN_TABLE, KNIGHT_TABLE, BISHOP_TABLE, ROOK_TABLE, QUEEN_TABLE, KING_TABLE
+from .zobrist import compute_zobrist
 
 
 def psq_value(p, r, c):

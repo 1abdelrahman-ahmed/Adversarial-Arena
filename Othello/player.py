@@ -1,5 +1,5 @@
-from constants import BLACK, WHITE
-from ai import AI
+from .constants import BLACK, WHITE
+from .ai import AI
 
 
 class Player:
