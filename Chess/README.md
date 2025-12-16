@@ -94,7 +94,7 @@ Search depth is configurable (default: `depth = 3`).
 
 Chess/
 ├── assets/          # Assets folder for images and sounds
-├── ai.py            # AI engine (Minimax, Alpha-Beta, evaluation)
+├── ai.py            # AI engine (MegaMax, Alpha-Beta, evaluation)
 ├── board.py         # Board representation and chess rules
 ├── chess_gui.py     # PyQt5 graphical user interface
 ├── constants.py     # Shared constants and evaluation tables
